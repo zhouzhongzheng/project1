@@ -105,6 +105,7 @@
     margin-top: 230px;
     margin-left: 970px;
     background: url(../img/main-bofang.png) no-repeat;
+    cursor: pointer;
   
 
 }
@@ -126,6 +127,7 @@
     background: url(../img/main-top2-left.png) no-repeat;
     float: left;
     position: absolute;
+    cursor: pointer;
 
 }
 .main-top .main-top2 .main-top2-right{
@@ -135,7 +137,7 @@
     /* border: 1px solid yellow; */
     background: url(../img/main-top2-right.png) no-repeat;
     float: right;
-    
+    cursor: pointer;
    
 }
 
@@ -167,6 +169,7 @@
     margin-top: 150px;
     background: url(../img/game-nav-center.png) no-repeat;
     margin-left: 40px;
+    
 
 
 }
@@ -177,6 +180,8 @@
     margin-left: 33px;
     margin-top: 25px;
     background: url(../img/game-nav-bottom.png) no-repeat;
+    cursor: pointer;
+    
 }
 .main-top .game-nav .game-nav-center {
     border: 1px solid black;
@@ -257,6 +262,7 @@
     margin-left: 35px;
     background: url(../img/game-nav-center-bottom.png) no-repeat;
      margin-top: 10px;
+     cursor: pointer;
 }
 
 .main-top .game-nav .game-nav-center .game-nav-center-bottom-rules{
