@@ -1,0 +1,234 @@
+*{
+    /* text-decoration: none; */
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+
+}
+.nav{
+    float: right;
+    margin-top: -235px;
+    position: relative;
+    
+}
+
+.nav ul{
+    display: block;
+    width: 200px;
+    height: 30px;
+    /* border: 1px solid black; */
+    line-height: 30px;
+}
+.nav ul li{
+    float: left;
+    font-size: 13px;
+    /* padding: 10px 10px 0 0; */
+    margin: 0 10px 0 0;
+    cursor: pointer;
+  
+}
+.nav ul li:hover{
+    text-decoration: underline;
+}
+.nav ul .nav-pic{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid black; */
+    background: url(../img/nav.png) -132px -38px;
+}
+.nav ul .nav-denglu{
+    background: #4285f4;
+    width: 51.97px;
+    height: 29.26px;
+    /* border: 1px solid black; */
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+   
+}
+.nav ul .nav-denglu:hover{
+    text-decoration: none;
+}
+.main {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 233.98px;
+    position: absolute;
+    margin-top: 250px;
+    position: relative;
+}
+.main .main-pic{
+    display: block;
+    width: 271.99px;
+    height:90px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    background: url(../img/pic.png) no-repeat;
+    margin-bottom: 25px;
+  
+   
+}
+
+.main .main-search{
+    border: 1px solid #dfe1e5;
+    width: 481px;
+    height: 43.99px;
+    margin: 0 auto;
+    border-radius: 24px;
+    background: #ffffff;
+    position: relative;
+    
+  
+}
+
+.main .main-search:hover{
+    box-shadow: 0 0 3px #9ecaed;
+}
+
+.main .main-search input{
+    width: 414.01px;
+    height: 40.09px;
+    margin-top: 3px;
+    position: absolute;
+    margin-left: 20px;
+    border: 0px;
+    outline: none;
+
+}
+.main .main-search .main-pic-right{
+    display: inline-block;
+     width: 24px;
+     height: 24px;
+    /* border: 1px solid black; */
+    float: right;
+    background: url(../img/main-left-right.png) no-repeat;
+    background-size: 24px 24px;
+    margin-top: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+   
+}
+.bottom{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100px;
+   position: absolute;
+   margin-top: -40px;
+}
+.bottom .bottom-top{
+    /* border: 1px solid black; */
+    width: 400px;
+    height: 58px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+}
+.bottom .bottom-top span{
+    cursor: pointer;
+    border-radius: 4px;
+   border: 1px solid white;
+}
+.bottom .bottom-top span:hover{
+    border: 1px solid #beb8b8;
+}
+.bottom .bottom-top .bottom-top-left{
+    display: inline-block;
+  width: 120px;
+  height: 36px;
+  /* border: 1px solid black; */
+  background: #f2f2f2;
+  line-height: 36px;
+ 
+
+  
+
+
+}
+
+.bottom .bottom-top .bottom-top-right{
+    display: inline-block;
+    width: 110px;
+    height: 36px;
+    /* border: 1px solid black; */
+    background: #f2f2f2;
+    line-height: 36px;
+ 
+    margin-left: 5px;
+}
+
+
+
+.info{
+    /* border: 1px solid black; */
+    width: 100%;
+    height:30px;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 13px;
+
+}
+
+.info p{
+ position: relative;
+ margin-left: -60px;
+}
+.info a{
+  color: #1a0dab;
+  cursor: pointer;
+   position: absolute;
+   margin-top: -17px;
+   margin-left: 20px;
+}
+.info a:hover{
+    text-decoration: underline;
+  
+}
+
+.bottom-nav{
+    /* border: 1px solid black; */
+    width:100%;
+    height: 40px;
+    margin-top: 389px;
+    font-size: 13px;
+    color: #5f6368;
+    background: #d8d7d7;
+}
+.bottom-nav ul li{
+    cursor: pointer;
+}
+ .bottom-nav-left{
+     display: inline-block;
+     width: px;
+     height: 40px;
+     /* border: 1px solid black; */
+     line-height: 40px;
+     text-align: center;
+     float: left;
+ }
+
+ .bottom-nav-left li{
+     float: left;
+     margin: 0 0 0 20px;
+  
+ }
+
+
+ .bottom-nav-right{
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    /* border: 1px solid black; */
+    line-height: 40px;
+    float: right;
+    margin-right:-28px;
+  
+ }
+ .bottom-nav-right li{
+     float: left;
+     margin: 0 0 0 20px;
+ }
