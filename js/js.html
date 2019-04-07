@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="display-button">显示</button>
+    <div id="show">显示时间</div>
+    <script>
+        var displaybuttonEl = document.getElementById("display-button");
+        var showEl = document.getElementById('show');
+             
+        displaybuttonEl.addEventListener("click", function () {
+            var dge = showEl.style.display === 'none';
+            if (dge) {
+                showEl.style.display = 'block';
+            } else {
+                showEl.style.display = 'none';
+            }
+        }, false)
+    </script>
+</body>
+
+</html>
